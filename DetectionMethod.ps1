@@ -7,7 +7,7 @@ $group = 'Administrators'
 try
 {   
     $isInGroup = (Get-LocalGroupMember $group).Name -contains $user
-    if (($isInGroup){
+    if ($isInGroup){
         #Below necessary for Intune as of 10/2019 will only remediate Exit Code 1
         Write-Host "Match"
         Return $results.count
