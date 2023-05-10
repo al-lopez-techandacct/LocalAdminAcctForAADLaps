@@ -1,5 +1,5 @@
 #$user = "$env:COMPUTERNAME\$env:USERNAME"
-$user = "$env:COMPUTERNAME\alopez"
+$user = "$env:COMPUTERNAME\tec"
 $group = 'Administrators'
 
 
